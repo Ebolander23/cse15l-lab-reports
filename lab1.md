@@ -7,6 +7,8 @@ We then used cd, ls, and cat commands to navigate the directory and the files wi
 1. Example using these commands with no arguments
    ## cd command: ![Image](cd1.png)
    * This command when used from outside of a directory produced no output, however when used from inside the directory took us back out of the directory.
+   * Directory - lecture1
+   * No errors
  
    ## ls command: ![Image](ls1.png)
    * This command listed all the contents of the active directory
