@@ -6,6 +6,7 @@
 *  A single argument which is the URI representing the URL
 *  The num field is incremented for each request and it represents the amount of messages added.
   ***
+  *
   **Screenshots of my String Server; Couldn't get it to store each string**
   ![Image](Hello.png)
   ![Image](How are you.png)
