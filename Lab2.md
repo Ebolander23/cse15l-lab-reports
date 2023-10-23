@@ -6,9 +6,7 @@ import java.net.URI;
 
 class StringHandler implements URLHandler {
   int num = 0 ;
-
-
-  public String handleRequest(URI url) {
+   public String handleRequest(URI url) {
     if (url.getPath().equals("/add-message")) {
       String[] params = url.getQuery().split("=");
       if (params[0].equals("s")) {
@@ -19,7 +17,6 @@ class StringHandler implements URLHandler {
 
     }
     return "";
-  }
 }
 * The handlerequest method is called.
 *  A single argument which is the URI representing the URL
