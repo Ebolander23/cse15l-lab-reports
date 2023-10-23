@@ -1,7 +1,26 @@
 # Lab Report 2 
 **Code for my String Server**
 ***
-![Image](String Server.png)
+import java.io.IOException;
+import java.net.URI;
+
+class StringHandler implements URLHandler {
+  int num = 0 ;
+
+
+  public String handleRequest(URI url) {
+    if (url.getPath().equals("/add-message")) {
+      String[] params = url.getQuery().split("=");
+      if (params[0].equals("s")) {
+        num += 1; 
+        return (num + ". " + params[1] + "\n");
+      }
+      return "404 Not Found!";
+
+    }
+    return "";
+  }
+}
 * The handlerequest method is called.
 *  A single argument which is the URI representing the URL
 *  The num field is incremented for each request and it represents the amount of messages added.
