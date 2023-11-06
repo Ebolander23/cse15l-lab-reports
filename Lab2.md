@@ -4,28 +4,37 @@
 import java.io.IOException;
 import java.net.URI;
 
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.List;
+
 class StringHandler implements URLHandler {
-  int num = 0 ;
-   public String handleRequest(URI url) {
+  private List<String> messages = new ArrayList<>();
+  private int num = 0;
+
+  public String handleRequest(URI url) {
     if (url.getPath().equals("/add-message")) {
       String[] params = url.getQuery().split("=");
       if (params[0].equals("s")) {
-        num += 1; 
-        return (num + ". " + params[1] + "\n");
+        num += 1;
+        String message = num + ". " + params[1];
+        messages.add(message);
+        return String.join("\n", messages);
       }
       return "404 Not Found!";
-
     }
     return "";
+  }
 }
 * The handlerequest method is called.
 *  A single argument which is the URI representing the URL
 *  The num field is incremented for each request and it represents the amount of messages added.
   ***
   *
-  **Screenshots of my String Server; Couldn't get it to store each string**
-  ![Image](Hello.png)
-  ![Image](How are you.png)
+  **Screenshots of my String Server;**
+  ![Image](lab 2 correct output.png)
+
   
 **Path to Public Key**
 * /c/Users/ericb/.ssh/id_rsa.pub
