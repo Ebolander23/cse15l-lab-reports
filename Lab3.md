@@ -25,6 +25,15 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUn
 ## Failure Inducing output: 
 ![Image](failure.png)
 
+4) testReversedFailure(ArrayTests)
+arrays first differed at element [0]; expected:<5> but was:<0>
+        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+        at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+        at org.junit.Assert.internalArrayEquals(Assert.java:534)
+        at org.junit.Assert.assertArrayEquals(Assert.java:418)
+        at org.junit.Assert.assertArrayEquals(Assert.java:429)
+        at ArrayTests.testReversedFailure(ArrayTests.java:34)
+
 ## Bug Before the Fix: 
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
