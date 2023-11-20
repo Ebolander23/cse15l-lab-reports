@@ -23,7 +23,7 @@ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUn
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
 ```
 ## Failure Inducing output: 
-![Image](imageName.png)
+![Image](failure.png)
 
 ## Bug Before the Fix: 
 static int[] reversed(int[] arr) {
