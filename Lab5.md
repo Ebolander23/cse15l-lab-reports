@@ -1,19 +1,23 @@
 ### Title: Test Failures TestDocSearch 
-```
+
 Student Post:
 Hey Everyone, I am trying to run my test script for TestDocSearch and am getting the output below.
+
 ![Image](test.sh.png)
+
 I am pretty sure that I wrote my script correctly, however it seems to be something wrong with the tests themselves?
 Here are the tests for DocSearch in the TestDocSearch class:
+
 ![Image](docsearch tests.png)
 
 Here are the error messages I am gettting back:
 ![Image](test.sh failures.png)
 
+
 Here is the test.sh class:
+
 ![Image](test.sh.png)
 
-```
 
 ```
 TA Response:
@@ -36,21 +40,18 @@ it is also important to think about where you are running your code.
 Do you think you would get the same error if you tried logging into a remote server?
 Try running these commands again, but try using the ssh command to log into IENG first.
 ```
-```
 Student Response:
 Thank you! It worked, and now my tests work! Thank you.
 Tests Working:
 ![Image](test working.png)
 Server Running:
 ![Image](search.png)
-```
+
 # Contents of the Directory and files within: 
-```
 ![Image](directory.png)
-![Image](start.sh)
+![Image](start.sh.png)
 ![Image](TestDocSearch.png)
 
-```
 
 # Part 2: Reflection
 ```
