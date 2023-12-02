@@ -39,4 +39,9 @@ Try running these commands again, but try using the ssh command to log into IENG
 Student Response:
 Thank you! It worked, and now my tests work! Thank you.
 Tests Working:
+![Image](test working.png)
+Server Running:
+![Image](search.png)
+```
+# Contents of the Directory and files within: 
 
