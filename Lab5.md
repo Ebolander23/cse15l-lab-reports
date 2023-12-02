@@ -17,21 +17,22 @@ Here is the test.sh class:
 
 ```
 TA Response:
-Hello! Thank you for sharing the details of the bug you are encountering. It looks as if the java file you have downloaded is actually a linux file.
+Hello! Thank you for sharing the details of the bug you are encountering.
+It looks as if the java file you have downloaded is actually a linux file.
 The issue stems from where you are running your tests. 
 A question to think about: What are the differences in how to write paths between Linux and Windows?
 ```
 
 ```
 Student Response:
-Thank you! So the error that I am getting is due to the different slashes associated with the Linux system, does that mean I have to
-completely rewrite all the code within the testing class?
+Thank you! So the error that I am getting is due to the different slashes associated with the Linux system, 
+does that mean I have to completely rewrite all the code within the testing class?
 ```
 
 ```
 TA Response:
-Yes, you are definitely on the right track. When you are thinking about these kind of bugs it is also important to think about
-where you are running your code.
+Yes, you are definitely on the right track. When you are thinking about these kind of bugs,
+it is also important to think about where you are running your code.
 Do you think you would get the same error if you tried logging into a remote server?
 Try running these commands again, but try using the ssh command to log into IENG first.
 ```
@@ -56,3 +57,5 @@ Server Running:
 I think my favorite technical topic that we covered in class was learning about scripts and running those from the terminal.
 Not only is writing a script really useful, but it also unlocks much more efficient coding and testing.
 I am going to make scripts a part of my coding, and it was nice to get lots of practice during lab running and testing our code using scripts.
+
+```
