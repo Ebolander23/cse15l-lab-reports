@@ -44,4 +44,15 @@ Server Running:
 ![Image](search.png)
 ```
 # Contents of the Directory and files within: 
+```
+![Image](directory.png)
+![Image](start.sh)
+![Image](TestDocSearch.png)
 
+```
+
+# Part 2: Reflection
+```
+I think my favorite technical topic that we covered in class was learning about scripts and running those from the terminal.
+Not only is writing a script really useful, but it also unlocks much more efficient coding and testing.
+I am going to make scripts a part of my coding, and it was nice to get lots of practice during lab running and testing our code using scripts.
