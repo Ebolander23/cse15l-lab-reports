@@ -11,7 +11,7 @@ Here are the tests for DocSearch in the TestDocSearch class:
 ![Image](docsearch tests.png)
 
 Here are the error messages I am gettting back:
-![Image](test.sh failures.png)
+![Image](test.shfailures.png)
 
 
 Here is the test.sh class:
@@ -43,7 +43,7 @@ Try running these commands again, but try using the ssh command to log into IENG
 Student Response:
 Thank you! It worked, and now my tests work! Thank you.
 Tests Working:
-![Image](test working.png)
+![Image](testworking.png)
 Server Running:
 ![Image](search.png)
 
