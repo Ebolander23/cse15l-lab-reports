@@ -8,7 +8,7 @@ Hey Everyone, I am trying to run my test script for TestDocSearch and am getting
 I am pretty sure that I wrote my script correctly, however it seems to be something wrong with the tests themselves?
 Here are the tests for DocSearch in the TestDocSearch class:
 
-![Image](docsearch tests.png)
+![Image](docsearchtests.png)
 
 Here are the error messages I am gettting back:
 ![Image](test.shfailures.png)
