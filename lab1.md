@@ -1,6 +1,6 @@
 # Eric Bolander 
-Dr. Politz
-Lab 1 - CSE 15L
+## Dr. Politz
+## Lab 1 - CSE 15L
 Today in lab we learned how to navigate different commands within the Ed Workspace. Given a directory through GitHub called lecture 1, we were first able to clone the directory into our workspace using git 
 clone command. 
 We then used cd, ls, and cat commands to navigate the directory and the files within:
