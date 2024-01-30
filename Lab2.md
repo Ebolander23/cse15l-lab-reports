@@ -37,12 +37,13 @@ class StringHandler implements URLHandler {
   ![Image](lab 2 correct output.png)
 
   
- ## Path to Public Key ##
+ ## Path to Public Key:
 ## ``` /Users``` ```/ericb ``` ```/.ssh ``` ``` /id_rsa.pub ```
-## Path to Private Key 
+
+## Path to Private Key: 
   ## ``` /.sssh ``` ``` /authorized_keys ```
   ## Screenshot of Terminal interaction without password: 
-  ![Image](SSHNOLOGIN.png)
+ ![Image](SSH NO LOGIN.png)
 
 
   **Something I learned in Week 2/3 that I didn't know before**
