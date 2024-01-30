@@ -1,6 +1,6 @@
 # Lab Report 2 
-**Code for my String Server**
-***
+## Code for my String Server: 
+
 import java.io.IOException;
 import java.net.URI;
 
@@ -27,23 +27,23 @@ class StringHandler implements URLHandler {
     return "";
   }
 }
-* The handlerequest method is called.
-*  A single argument which is the URI representing the URL
-*  The num field is incremented for each request and it represents the amount of messages added.
-  ***
-  *
-  **Screenshots of my String Server;**
+
+* ## ``` The handlerequest method is called. ```
+* ## ``` A single argument which is the URI representing the URL ```
+* ## ```The num field is incremented for each request and it represents the amount of messages added. ``
+  
+  
+  ## Screenshots of my String Server: 
   ![Image](lab 2 correct output.png)
 
   
-**Path to Public Key**
-* /c/Users/ericb/.ssh/id_rsa.pub
-**Path to Private Key**
-  */.sssh/authorized_keys
-  **Screenshot of Terminal interaction without password**
-  ![Image](Nopassword.png)
-  ***
-  This did not work for me, I got it to work in lab and it seemed like it worked here but then it prompted me for a password again.
+ ## Path to Public Key ##
+## ``` /Users``` ```/ericb ``` ```/.ssh ``` ``` /id_rsa.pub ```
+## Path to Private Key 
+  ## ``` /.sssh ``` ``` /authorized_keys ```
+  ## Screenshot of Terminal interaction without password: 
+  ![Image](SSHNOLOGIN.png)
+
 
   **Something I learned in Week 2/3 that I didn't know before**
   * I learned a lot about paths and how to navigate different commands.
