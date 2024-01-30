@@ -5,7 +5,7 @@ Today in lab we learned how to navigate different commands within the Ed Workspa
 clone command. 
 We then used cd, ls, and cat commands to navigate the directory and the files within:
 1. ## Example using these commands with no arguments:
-  ## ``` cd command  ``` from ``` /home  ``` and  ``` lecture 1 ```
+  ## ``` cd command  ```, ``` /home  ```, ``` lecture 1 ```
    ![Image](cd1.png)
    * This command when used from outside of a directory produced no output, however when used from inside the directory took us back out of the directory.
    * Directory - lecture1
