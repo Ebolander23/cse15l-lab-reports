@@ -1,41 +1,62 @@
 # Lab Report 2 
-## Code for my String Server: 
+# Eric Bolander
+# Dr. Politz
 
-import java.io.IOException;
+## Code for my Chat Server: 
+`import java.io.IOException;
 import java.net.URI;
 
-import java.io.IOException;
-import java.net.URI;
-import java.util.ArrayList;
-import java.util.List;
-
-class StringHandler implements URLHandler {
-  private List<String> messages = new ArrayList<>();
-  private int num = 0;
+    class ChatHandler implements URLHandler {
+  String chatHistory = "";
 
   public String handleRequest(URI url) {
+
+    // expect /add-message?s=<string>&user=<name>
     if (url.getPath().equals("/add-message")) {
-      String[] params = url.getQuery().split("=");
-      if (params[0].equals("s")) {
-        num += 1;
-        String message = num + ". " + params[1];
-        messages.add(message);
-        return String.join("\n", messages);
+        String[] params = url.getQuery().split("&");
+        String[] MessageInput = params[0].split("=");
+        String[] UserInput = params[1].split("=");
+      
+      if (MessageInput[0].equals("s") && UserInput[0].equals("user")) {
+        String user = UserInput[1];
+        String message = MessageInput[1];
+        this.chatHistory += user + ": " + message + "\n\n";
+        return this.chatHistory;
+      } else {
+        return "Invalid parameters: " + String.join("&", params);
       }
-      return "404 Not Found!";
     }
-    return "";
+
+    return "404 Not Found";
   }
 }
 
-* ## ``` The handlerequest method is called. ```
-* ## ``` A single argument which is the URI representing the URL ```
-* ## ```The num field is incremented for each request and it represents the amount of messages added. ``
-  
-  
-  ## Screenshots of my String Server: 
-  ![Image](lab 2 correct output.png)
 
+
+class ChatServer {
+  public static void main(String[] args) throws IOException {
+  if(args.length == 0){
+  System.out.println("Missing port number! Try any number between 1024 to 49151");
+  return;
+ }
+  int port = Integer.parseInt(args[0]);
+  Server.start(port, new ChatHandler());
+  }
+}`
+
+--- 
+
+# First add-message Request(```/add-message?```,```s=Hello```,```&user=jpolitz```):
+*  **Methods Called**: handleRequest(URI url) method in the ChatHandler class is called.
+*  **Arguments:** The URI url argument is passed to the handleRequest() method, which represents the URL /add-message?s=Hello&user=jpolitz.
+*  **Values:** chatHistory field: Initially empty (""), then updated to "jpolitz: Hello\n\n" after processing the request.
+
+# Second add-message Request(```/add-message?```,```s=How are you```,```&user=yash```):
+*  **Methods Called**: handleRequest(URI url) method in the ChatHandler class is called.
+*  **Arguments:** The URI url argument is passed to the handleRequest() method, representing the URL /add-message?s=How are you&user=yash
+*  **Values:** chatHistory field: Initially "jpolitz: Hello\n\n", it gets appended with "yash: How are you\n\n" after processing the request.
+  
+--- 
   
  ## Path to Public Key:
 ## ``` /Users``` ```/ericb ``` ```/.ssh ``` ``` /id_rsa.pub ```
