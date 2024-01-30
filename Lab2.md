@@ -3,7 +3,8 @@
 # Dr. Politz
 
 ## Code for my Chat Server: 
-`import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 
     class ChatHandler implements URLHandler {
@@ -30,9 +31,9 @@ import java.net.URI;
     return "404 Not Found";
   }
 }
+```
 
-
-
+```
 class ChatServer {
   public static void main(String[] args) throws IOException {
   if(args.length == 0){
@@ -42,7 +43,8 @@ class ChatServer {
   int port = Integer.parseInt(args[0]);
   Server.start(port, new ChatHandler());
   }
-}`
+}
+```
 
 --- 
 
