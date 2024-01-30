@@ -4,11 +4,17 @@
 Today in lab we learned how to navigate different commands within the Ed Workspace. Given a directory through GitHub called lecture 1, we were first able to clone the directory into our workspace using git 
 clone command. 
 We then used cd, ls, and cat commands to navigate the directory and the files within:
-1. Example using these commands with no arguments
-   ## cd command: ![Image](cd1.png)
+1. ## Example using these commands with no arguments:
+   ``` cd command  ``` from
+   ``` /home  ``` and 
+   ``` lecture 1 ```
+   ![Image](cd1.png)
    * This command when used from outside of a directory produced no output, however when used from inside the directory took us back out of the directory.
    * Directory - lecture1
    * No errors
+   * Additional insights: when used from deep within multiple directories, cd took us out of all directories
+   * This was unexpected, I thought it would just take you one directory back
+     ![Image](
  
    ## ls command: ![Image](ls1.png)
    * This command listed all the contents of the active directory
