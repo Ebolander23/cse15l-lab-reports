@@ -65,6 +65,9 @@ class ChatServer {
 
 ## Path to Private Key: 
   ## ``` /.sssh ``` ``` /authorized_keys ```
+
+  ---
+  
   ## Screenshot of Terminal interaction without password: 
  ![Image](SSH NO LOGIN.png)
 
