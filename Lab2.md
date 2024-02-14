@@ -64,7 +64,7 @@ class ChatServer {
 ## ` /Users` `/ericb ` `/.ssh ` ` /id_rsa.pub `
 
 ## Path to Private Key: 
-  ## ``` /.sssh ``` ``` /authorized_keys ```
+  ## ` /.sssh ` ` /authorized_keys `
 
   ---
   
