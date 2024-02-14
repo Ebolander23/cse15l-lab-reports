@@ -60,7 +60,7 @@ class ChatServer {
 *  **Arguments:** The `URI url argument` is passed to the `handleRequest() method`, representing the URL `/add-message?s=How are you&user=yash`
 *  **Values:** `chatHistory field`: Initially `"jpolitz: Hello\n\n"`, it gets appended with `"yash: How are you\n\n"` after processing the request.
   ## Screenshot 2: 
-   ![Image](addmessage2.png)
+   ![Image](add-message2.png)
   
 --- 
   
