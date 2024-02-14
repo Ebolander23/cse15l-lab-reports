@@ -64,14 +64,16 @@ class ChatServer {
   
 --- 
   
- # Path to Public Key:
-## `/home/linux/ieng6/oce/1jebolander/.ssh`
+ ## Path to Public Key:
+* `/home/linux/ieng6/oce/1jebolander/.ssh`
 ![Image](publickey.png)
 
 
-# Path to Private Key: 
-  ## `/c/Users/ericb/.ssh/id_rsa`
-![Image](privatekey.png)
+## Path to Private Key: 
+  * `/c/Users/ericb/.ssh/id_rsa`
+
+    
+      ![Image](privatekey.png)
   ---
   
   ## Screenshot of Terminal interaction without password: 
