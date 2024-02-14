@@ -65,10 +65,10 @@ class ChatServer {
 --- 
   
  ## Path to Public Key:
-## ` /Users` `/ericb ` `/.ssh ` ` /id_rsa.pub `
+## '/home' '/linux' '/ieng6' '/oce' '/1j' '/ebolander' '/.ssh`
 
 ## Path to Private Key: 
-  ## ` /.sssh ` ` /authorized_keys `
+  ## '/c' '/Users' '/ericb' '/.ssh' '/id_rsa'
 
   ---
   
