@@ -49,14 +49,18 @@ class ChatServer {
 --- 
 
 # First add-message Request(`/add-message?`,`s=Hello`,`&user=jpolitz`):
-*  **Methods Called**: handleRequest(URI url) method in the ChatHandler class is called.
-*  **Arguments:** The URI url argument is passed to the handleRequest() method, which represents the URL /add-message?s=Hello&user=jpolitz.
-*  **Values:** chatHistory field: Initially empty (""), then updated to "jpolitz: Hello\n\n" after processing the request.
+*  **Methods Called**: 'handleRequest(URI url) method' in the 'ChatHandler class' is called.
+*  **Arguments:** The 'URI url argument' is passed to the 'handleRequest() method', which represents the URL '/add-message?s=Hello&user=jpolitz'.
+*  **Values:** 'chatHistory field': Initially empty '("")', then updated to '"jpolitz: Hello\n\n"' after processing the request.
+  ## Screenshot: 
+   ![Image](addmessage1.png)
 
 # Second add-message Request(`/add-message?`,`s=How are you`,`&user=yash`):
-*  **Methods Called**: handleRequest(URI url) method in the ChatHandler class is called.
-*  **Arguments:** The URI url argument is passed to the handleRequest() method, representing the URL /add-message?s=How are you&user=yash
-*  **Values:** chatHistory field: Initially "jpolitz: Hello\n\n", it gets appended with "yash: How are you\n\n" after processing the request.
+*  **Methods Called**: 'handleRequest(URI url) method' in the 'ChatHandler class' is called.
+*  **Arguments:** The 'URI url argument' is passed to the 'handleRequest() method', representing the URL '/add-message?s=How are you&user=yash'
+*  **Values:** 'chatHistory field': Initially '"jpolitz: Hello\n\n"', it gets appended with '"yash: How are you\n\n"' after processing the request.
+  ## Screenshot 2: 
+   ![Image](addmessage2.png)
   
 --- 
   
