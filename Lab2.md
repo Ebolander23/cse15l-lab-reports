@@ -48,12 +48,12 @@ class ChatServer {
 
 --- 
 
-# First add-message Request(```/add-message?```,```s=Hello```,```&user=jpolitz```):
+# First add-message Request(`/add-message?`,`s=Hello`,`&user=jpolitz`):
 *  **Methods Called**: handleRequest(URI url) method in the ChatHandler class is called.
 *  **Arguments:** The URI url argument is passed to the handleRequest() method, which represents the URL /add-message?s=Hello&user=jpolitz.
 *  **Values:** chatHistory field: Initially empty (""), then updated to "jpolitz: Hello\n\n" after processing the request.
 
-# Second add-message Request(```/add-message?```,```s=How are you```,```&user=yash```):
+# Second add-message Request(`/add-message?`,`s=How are you`,`&user=yash`):
 *  **Methods Called**: handleRequest(URI url) method in the ChatHandler class is called.
 *  **Arguments:** The URI url argument is passed to the handleRequest() method, representing the URL /add-message?s=How are you&user=yash
 *  **Values:** chatHistory field: Initially "jpolitz: Hello\n\n", it gets appended with "yash: How are you\n\n" after processing the request.
@@ -61,7 +61,7 @@ class ChatServer {
 --- 
   
  ## Path to Public Key:
-## ``` /Users``` ```/ericb ``` ```/.ssh ``` ``` /id_rsa.pub ```
+## ` /Users` `/ericb ` `/.ssh ` ` /id_rsa.pub `
 
 ## Path to Private Key: 
   ## ``` /.sssh ``` ``` /authorized_keys ```
