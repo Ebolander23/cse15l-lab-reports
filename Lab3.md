@@ -117,7 +117,9 @@ grep -vc "Cardiovascular" ./technical/biomed/1468-6708-3-1.txt
     grep -A 0 "crash" ./technical/911report/chapter-1.txt
     At 8:46:40, American 11 crashed into the North Tower of the World Trade Center in New York City
     ```
-**This command could be very useful for finding what information is surrounding the target info**
+This command could be very useful for finding what information is surrounding the target info.
+
+
 # URL Source for all grep research and commands found to try:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 --
