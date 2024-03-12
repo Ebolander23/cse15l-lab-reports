@@ -6,6 +6,7 @@
 Keys Pressed: `<CTRL -R> <S> <enter>` 
 This allowed me to recursively find the `ssh ebolander@ieng6-201.ucsd.edu` command just by typing `s`
 **IMPORTANT: Had to access ieng6-201, because JUNIT is not installed on 203. 
+
 ![Image](step4.png) 
 
 ## Step 5: ## 
@@ -18,6 +19,7 @@ Since I deleted my old fork I had to repaste the new SSH url `git@github.com:Ebo
 ## Step 6: ##
 Keys Pressed: `<up> <up> <up> <enter>` The `bash test.sh` command in my bash history was only 3 up. 
 The `bash test.sh` contained the javac commands to compile and run the tests. 
+
 ![Image](step6.png)
 
 ## Step 7: ##
@@ -39,6 +41,7 @@ Keys Pressed: `<git> <add> <L> <tab> <enter> <git> <co> <tab> <-m> <"fixed"> <en
 This one was quicker to just type out then access from my bash history becuase they are such short commands. 
 I first added the changed file with `git add` and then committed these changed with `git commit -m` 
 Finally, I used `git push` to successfully push the changes to my github account. 
+
 
 ![Image](step9.png)
 
