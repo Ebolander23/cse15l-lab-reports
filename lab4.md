@@ -35,7 +35,7 @@ Like previously stated the `test.sh` class contains the script for compiling and
 ![Image](step8.png)
 
 # Step 9: ## 
-Keys Pressed: `<git> <add> <L> <tab> <enter> <git> <co> <tab> <-m> <"fixed"> <enter> <git> <pu> <tab> <enter> 
+Keys Pressed: `<git> <add> <L> <tab> <enter> <git> <co> <tab> <-m> <"fixed"> <enter> <git> <pu> <tab> <enter>` 
 This one was quicker to just type out then access from my bash history becuase they are such short commands. 
 I first added the changed file with `git add` and then committed these changed with `git commit -m` 
 Finally, I used `git push` to successfully push the changes to my github account. 
