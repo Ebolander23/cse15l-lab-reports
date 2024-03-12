@@ -17,7 +17,7 @@ Since I deleted my old fork I had to repaste the new SSH url `git@github.com:Ebo
 
 ## Step 6: ##
 Keys Pressed: `<up> <up> <up> <enter>` The `bash test.sh` command in my bash history was only 3 up. 
-
+The `bash test.sh` contained the javac commands to compile and run the tests. 
 ![Image](step6.png)
 
 ## Step 7: ##
@@ -30,12 +30,15 @@ Using `<r>` or `replace` I quickly replaced `index1` with `index 2`.
 
 ## Step 8: ##
 Keys Pressed: `<up> <up> <enter>` The `bash test.sh` command was only 2 up in my bash history. 
+Like previously stated the `test.sh` class contains the script for compiling and running tests with javac. 
 
 ![Image](step8.png)
 
 # Step 9: ## 
 Keys Pressed: `<git> <add> <L> <tab> <enter> <git> <co> <tab> <-m> <"fixed"> <enter> <git> <pu> <tab> <enter> 
 This one was quicker to just type out then access from my bash history becuase they are such short commands. 
+I first added the changed file with `git add` and then committed these changed with `git commit -m` 
+Finally, I used `git push` to successfully push the changes to my github account. 
 
 ![Image](step9.png)
 
