@@ -1,4 +1,4 @@
-# Lab Report 2 
+# Lab Report 5 - Debugging Scenario
 # Eric Bolander
 # Dr. Politz
 
