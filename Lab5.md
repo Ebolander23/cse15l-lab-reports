@@ -59,7 +59,8 @@ Server Running:
 
 # Part 2: Reflection
 ```
-I think my favorite technical topic that we covered in class was learning about scripts and running those from the terminal.
+I really enjoyed learning and using vim. It is not only useful to make quick changes from the terminal, but creating new files, and navigating big code. 
+I think another topic that we covered in class that I enjoyed was learning about scripts and running those from the terminal.
 Not only is writing a script really useful, but it also unlocks much more efficient coding and testing.
 I am going to make scripts a part of my coding, and it was nice to get lots of practice during lab running and testing our code using scripts.
 
