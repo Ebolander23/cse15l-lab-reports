@@ -1,3 +1,7 @@
+# Lab Report 2 
+# Eric Bolander
+# Dr. Politz
+
 ### Title: Test Failures TestDocSearch 
 
 Student Post:
